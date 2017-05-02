@@ -5,16 +5,16 @@
 form.odoform fieldset.section.fieldset {
   padding-left: 0;
   padding-right: 0;
-  font-family: 'Montserrat', arial, sans-serif;
+  font-family: &#39;Montserrat&#39;, arial, sans-serif;
 }
 
-div[class*="item control-group"] > label[class*="control-label span2"],
+div[class*=&#34;item control-group&#34;] &gt; label[class*=&#34;control-label span2&#34;],
 form.odoform .inline_group_item label {
-  font-family: "Montserrat",sans-serif;
+  font-family: &#34;Montserrat&#34;,sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 0.75rem;
-  line-height: 0.21667rem;
+  line-height: 1.41667rem;
   margin: 0rem 0rem 0.54167rem 0rem;
   letter-spacing: 1px;
   color: #000;
@@ -25,7 +25,7 @@ form.odoform .inline_group_item label {
   margin-top: 0.5rem;
 }
 
-form.odoform textarea, form.odoform select, form.odoform input[type="text"], form.odoform input[type="password"], form.odoform input[type="datetime"], form.odoform input[type="datetime-local"], form.odoform input[type="date"], form.odoform input[type="month"], form.odoform input[type="time"], form.odoform input[type="week"], form.odoform input[type="number"], form.odoform input[type="email"], form.odoform input[type="url"], form.odoform input[type="search"], form.odoform input[type="tel"], form.odoform input[type="color"], form.odoform .uneditable-input {
+form.odoform textarea, form.odoform select, form.odoform input[type=&#34;text&#34;], form.odoform input[type=&#34;password&#34;], form.odoform input[type=&#34;datetime&#34;], form.odoform input[type=&#34;datetime-local&#34;], form.odoform input[type=&#34;date&#34;], form.odoform input[type=&#34;month&#34;], form.odoform input[type=&#34;time&#34;], form.odoform input[type=&#34;week&#34;], form.odoform input[type=&#34;number&#34;], form.odoform input[type=&#34;email&#34;], form.odoform input[type=&#34;url&#34;], form.odoform input[type=&#34;search&#34;], form.odoform input[type=&#34;tel&#34;], form.odoform input[type=&#34;color&#34;], form.odoform .uneditable-input {
   color: #091f2f;
   border: 3px solid;
   padding: 5px 15px;
@@ -36,10 +36,20 @@ form.odoform textarea, form.odoform select, form.odoform input[type="text"], for
 
 form.odoform fieldset.fieldset p {
   font-family: Lora, serif;
-  font-size: 1.5em;
+  font-size: 1.3rem;
   line-height: 1.6 !important;
   font-style: italic;
   color: #091F2F;
+}
+
+ul li {
+    list-style-type: circle;
+     font-family: Lora-Regular;
+     font-size: 1.3rem;
+     line-height: 39px;
+     font-style: italic;
+     color: #091F2F;
+     margin: .5rem 10% .5rem 5%; 
 }
 
 .module_actions .action_button.primary {
@@ -54,7 +64,7 @@ form.odoform fieldset.fieldset p {
   letter-spacing: 1px;
   font-size: 14px !important;
   text-shadow: none;
-  font-family: "Montserrat",sans-serif;
+  font-family: &#34;Montserrat&#34;,sans-serif;
   box-shadow: none !important;
 }
 
@@ -63,7 +73,7 @@ form.odoform fieldset.fieldset p {
 }
 
 .control-label, .inline_group_item label {
-  font-family: 'Montserrat', arial, sans-serif;
+  font-family: &#39;Montserrat&#39;, arial, sans-serif;
   text-transform: uppercase;
   color: #091f2f;
 }
@@ -75,5 +85,11 @@ form.odoform fieldset.fieldset p {
 
 .clear-signature:hover {
   color: #fff !important;   
+
 }
-                     
+
+a:link {
+ font-family: Lora, serif;
+ font-size: 1.3rem;
+
+}
