@@ -13,16 +13,43 @@ form.odoform .inline_group_item label {
   font-family: "Montserrat",sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 0.75rem;
+  font-size: 1rem;
   line-height: 0.21667rem;
   margin: 0rem 0rem 0.54167rem 0rem;
   letter-spacing: 1px;
   color: #000;
 }
 
+.control-label, .inline_group_item label {
+  font-family: 'Montserrat', arial, sans-serif;
+  text-transform: uppercase;
+  font-size: .75rem;
+  line-height: 1.6 !important;
+  color: #091f2f;
+}
+
 form.odoform .inline_group_item label {
   color: #929292;
   margin-top: 0.5rem;
+  font-family: Lora, serif;
+  text-transform: capitalize;
+  
+}
+
+form.odoform .option_label {
+  font-family: Lora, serif;
+  font-size: 1rem;
+  line-height: 1;
+  color: #58585B;
+}
+
+form.odoform .option_item {
+  font-family: Lora, serif;
+  font-size: 1rem;
+  line-height: 1;
+  color: #58585B;
+
+
 }
 
 form.odoform textarea, form.odoform select, form.odoform input[type="text"], form.odoform input[type="password"], form.odoform input[type="datetime"], form.odoform input[type="datetime-local"], form.odoform input[type="date"], form.odoform input[type="month"], form.odoform input[type="time"], form.odoform input[type="week"], form.odoform input[type="number"], form.odoform input[type="email"], form.odoform input[type="url"], form.odoform input[type="search"], form.odoform input[type="tel"], form.odoform input[type="color"], form.odoform .uneditable-input {
@@ -34,14 +61,47 @@ form.odoform textarea, form.odoform select, form.odoform input[type="text"], for
   font-family: Lora, serif;
 }
 
-form.odoform fieldset.fieldset p {
-  font-family: Lora, serif;
-  font-size: 1.5em;
-  line-height: 1.6 !important;
-  font-style: italic;
+form.odoform fieldset.fieldset h1 {
+  font-family: Montserrat,Arial,sans-serif;
+  font-size: 1.66667rem;
+  line-height: 1.5rem;
   color: #091F2F;
 }
 
+form.odoform fieldset.fieldset h2 {
+  font-family: Montserrat,Arial,sans-serif;
+  font-size: calc(20px + 25 * ((100vw - 480px) / 960));
+  line-height: 1rem;
+  color: #091F2F;
+}
+
+form.odoform fieldset.fieldset p {
+  font-family: Lora, serif;
+  font-size: 1.1rem;
+  line-height: 1.6rem !important;
+  color: #58585B;
+}
+
+form.odoform fieldset.fieldset ul {
+  font-family: Lora, serif;
+  font-size: 1.1rem;
+  line-height: 1.6rem !important;
+  color: #58585B;
+}
+
+form.odoform fieldset.fieldset ol {
+  font-family: Lora, serif;
+  font-size: 1.1rem;
+  line-height: 1.6rem !important;
+  color: #58585B;
+}
+
+form.odoform fieldset.fieldset li {
+  font-family: Lora, serif;
+  font-size: 1.1rem;
+  line-height: 1.6rem !important;
+  color: #58585B;
+}
 a {
   color: #288BE4;
 }
@@ -61,7 +121,7 @@ a:hover {
   background: #288be4;
   text-transform: uppercase !important;
   letter-spacing: 1px;
-  font-size: 14px !important;
+  font-size: 1rem !important;
   text-shadow: none;
   font-family: "Montserrat",sans-serif;
   box-shadow: none !important;
@@ -69,12 +129,6 @@ a:hover {
 
 .action_button:hover, .btn-primary:hover {
   background-color: #fb4d42 !important;
-}
-
-.control-label, .inline_group_item label {
-  font-family: 'Montserrat', arial, sans-serif;
-  text-transform: uppercase;
-  color: #091f2f;
 }
 
 .clear-signature {
