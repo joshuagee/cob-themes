@@ -5,7 +5,11 @@
 form.odoform fieldset.section.fieldset {
   padding-left: 0;
   padding-right: 0;
-  font-family: 'Montserrat', arial, sans-serif;
+  font-family: Lora, serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 2.4375rem;
+  color: #58585B;
 }
 
 div[class*="item control-group"] > label[class*="control-label span2"],
@@ -16,8 +20,8 @@ form.odoform .inline_group_item label {
   font-size: 1rem;
   line-height: 0.21667rem;
   margin: 0rem 0rem 0.54167rem 0rem;
-  letter-spacing: 1px;
-  color: #000;
+  letter-spacing: 0.0645rem;
+  color: #061622;
 }
 
 .control-label, .inline_group_item label {
@@ -29,7 +33,8 @@ form.odoform .inline_group_item label {
 }
 
 form.odoform .inline_group_item label {
-  color: #929292;
+  font-weight: 300;
+  color: #061622;
   margin-top: 0.5rem;
   font-family: Lora, serif;
   text-transform: capitalize;
